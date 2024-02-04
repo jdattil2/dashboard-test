@@ -2,7 +2,7 @@ os: voss
 text: 'Extreme VOSS'
 type: network
 icon: extremevoss
-mib_dir: nortel
+mib_dir: extreme/fabric-engine
 over:
     - { graph: device_bits, text: 'Device Traffic' }
     - { graph: device_processor, text: 'CPU Usage' }
@@ -22,3 +22,4 @@ discovery:
             - XA1480
 good_if:
     - 'Virtual Services Platform'
+    - 'FabricEngine'
